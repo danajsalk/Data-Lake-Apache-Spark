@@ -56,8 +56,11 @@ song play analysis. Following are the fact and dimension tables made for this pr
     
 ## Run Directions:
 <br>
+
 * Update the `dl.cfg` file
     * AWS_ACCESS_KEY_ID 
     * AWS_SECRET_ACCESS_KEY
+    
+    
 * Run `python etl.py`. 
     * This will start pipeline which will read the data from files and populate the tables.
